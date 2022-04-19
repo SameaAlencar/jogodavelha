@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IniciodojogoActivity"
+    android:background="@drawable/tela"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="368dp"
+            android:layout_height="50dp"
+            android:text="Jogo da Velha"
+            android:background="#4AC2CA"
+            android:textColor="#ffff"
+            android:textSize="35dp"
+            android:paddingLeft="60dp"
+            />
+
+        <TextView
+            android:id="@+id/jogador"
+            android:layout_width="209dp"
+            android:layout_height="50dp"
+            android:text="Jogador"
+            android:background="#BFA6E9"
+            android:textColor="#ffff"
+            android:textSize="35dp"
+            android:paddingLeft="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="79dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="60dp">
+
+            <ImageButton
+                android:id="@+id/Button1"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:src="@drawable/x"
+                />
+
+            <ImageButton
+                android:id="@+id/Button2"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="20dp"
+                android:onClick="buttonClick"/>
+
+            <ImageButton
+                android:id="@+id/Button3"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="20dp"
+                android:onClick="buttonClick"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp">
+
+            <ImageButton
+                android:id="@+id/Button4"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:onClick="buttonClick"/>
+            <ImageButton
+                android:id="@+id/Button5"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="20dp"
+                android:onClick="buttonClick"
+                />
+            <ImageButton
+                android:id="@+id/Button6"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="20dp"
+                android:onClick="buttonClick"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/Button7"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="60dp"
+                android:onClick="buttonClick"/>
+            <ImageButton
+                android:id="@+id/Button8"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="20dp"
+                android:onClick="buttonClick"/>
+            <ImageButton
+                android:id="@+id/Button9"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:background="#0000"
+                android:layout_marginLeft="20dp"
+                android:onClick="buttonClick"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:backgroundTint="#B59FDA"
+        android:text="voltar"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+     <TextView
+         android:id="@+id/resultado"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="200dp"
+         android:textSize="30dp"
+         />
+
+    </LinearLayout>
+
+</LinearLayout>

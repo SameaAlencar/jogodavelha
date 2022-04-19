@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JogadoresActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#8bc9c9">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="187dp"
+        android:src="@drawable/jogo"
+        android:layout_marginBottom="70sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/jogador"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#B59FDA"
+            android:text="Jogador"
+            />
+
+        <Button
+            android:id="@+id/computador"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#B59FDA"
+            android:text="Computador"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
